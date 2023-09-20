@@ -11,7 +11,7 @@ space representation_](https://doi.org/10.1007/978-3-031-43904-9_63) presented a
 
 ### Data
 
-To generate the corresponding pointclouds for each 3D mesh of your dataset and store them in the corresponding dataset in h5 format you must run generate_h5_dataset.py
+To generate the corresponding pointclouds for each 3D mesh of your dataset and store them in the corresponding dataset in h5 format you must run generate_h5_dataset.py.
 
 ### Training 
 
@@ -30,9 +30,9 @@ The saved model and the embeddings of the test set are stored in the output fold
 ## Getting started
 ### Setup 
 
-We recomend setting up a virtual enviroment for running the code. The requirements used for our implementation are in the file 'requirements.txt'.
+We recomend setting up a virtual enviroment for running the code. 
 
-Therefore the enviroment for running this code can be created by using the following commands:
+The enviroment for running this code can be created by using the following commands:
 
    ```shell
    conda create -n DD_shape python=3.8
