@@ -7,19 +7,19 @@ space representation_](https://doi.org/10.1007/978-3-031-43904-9_63) presented a
 ![Alt text](./data/pipeline.jpg "Sketch of the DeepDiffusion used for latent space representation of the cochlear 3D meshes. The pointcloud extracted from the mesh is fed to the PointNet encoder which generates the corresponding latent feature which is optimized by minimizing the LMR loss so the encoder and the latent feature manifold are optimized for the comparison of data samples.")
 
 
-### Code
+## Code
 
-## Data
+### Data
 
 To generate the corresponding pointclouds for each 3D mesh of your dataset and store them in the corresponding dataset in h5 format you must run generate_h5_dataset.py
 
-## Training 
+### Training 
 
 The file used to train and evaluate the training is shape_classification_DD.py. 
 
 
 
-## Output
+### Output
 
 The saved model and the embeddings of the test set are stored in the output folder which can be used to display different visualizations of the latent space as we showed in our paper as:
 
@@ -27,8 +27,8 @@ The saved model and the embeddings of the test set are stored in the output fold
 
 
 
-### Getting started
-## Setup 
+## Getting started
+### Setup 
 
 We recomend setting up a virtual enviroment for running the code. The requirements used for our implementation are in the file 'requirements.txt'.
 
@@ -40,7 +40,7 @@ Therefore the enviroment for running this code can be created by using the follo
    pip install  pandas pytorch-lightning  pyvista scipy h5py sobol sobol_seq meshio tensorboard pytorch_geometric
    ```
 
-## Toy dataset and first training
+### Toy dataset and first training
 
 The dataset used for the publication which consists in various 3D meshes of normal and malformed cochleas cannot be made public. If you want to run this code and play with it you can use the dataset used in [_DeepDiffusion: Unsupervised Learning of Retrieval-Adapted Representations via Diffusion-Based Ranking on Latent Feature Manifold_] (https://ieeexplore.ieee.org/document/9934898) that can be downloaded [_here_] (http://3dvision.princeton.edu/projects/2014/3DShapeNets/ModelNet10.zip):
 
