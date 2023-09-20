@@ -42,7 +42,9 @@ Therefore the enviroment for running this code can be created by using the follo
 
 ### Toy dataset and first training
 
-The dataset used for the publication which consists in various 3D meshes of normal and malformed cochleas cannot be made public. If you want to run this code and play with it you can use the dataset used in [_DeepDiffusion: Unsupervised Learning of Retrieval-Adapted Representations via Diffusion-Based Ranking on Latent Feature Manifold_](https://ieeexplore.ieee.org/document/9934898) that can be downloaded [_here_](http://3dvision.princeton.edu/projects/2014/3DShapeNets/ModelNet10.zip):
+The dataset used for the publication which consists in various 3D meshes of normal and malformed cochleas cannot be made public. 
+
+If you want to run this code and play with the dataset used in [_DeepDiffusion: Unsupervised Learning of Retrieval-Adapted Representations via Diffusion-Based Ranking on Latent Feature Manifold_](https://ieeexplore.ieee.org/document/9934898). The dataset can be downloaded [_here_](http://3dvision.princeton.edu/projects/2014/3DShapeNets/ModelNet10.zip):
 
 You should move all the meshes to a data folder and you can generate the dataset using the following commands from the data folder:
 
